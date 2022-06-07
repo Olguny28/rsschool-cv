@@ -1,8 +1,11 @@
 # Olga Samoilova
 ## Contacts:
 e-mail: soahose@yandex.ru
+***********
 mobile phone: +7-917-819-38-32
+****************
 [VK] (https://vk.com/web_solga "Моя страничка ВК-web")
+***********
 ### About me:
 * Basic higher education 
     + Samara State University '95, chemist.
@@ -18,3 +21,4 @@ mobile phone: +7-917-819-38-32
     + basics HTML, CSS and Javascript
 ### The purpose of training: 
 **become a master in front-end development**
+![my foto] (/img/SOA_1.jpg "фото Самойлова Ольга")
