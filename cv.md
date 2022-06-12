@@ -2,15 +2,18 @@
 ###### Web Designer
 ###### Junior Front-end Developer 
 
-![my foto] (<img width="360" alt="foto_my" src="https://user-images.githubusercontent.com/106342480/173258233-c87e5b63-ee2a-4554-858d-4b96f34309ac.png">)
+<img width="360" alt="foto_my" src="https://user-images.githubusercontent.com/106342480/173258233-c87e5b63-ee2a-4554-858d-4b96f34309ac.png">
 
 ## Contacts:
+Russia, Samara
+======================
 e-mail: soahose@yandex.ru
 ====================
 mobile phone: +7-917-819-38-32
 ====================
 [VK] (https://vk.com/web_solga) 
 =====================
+
 ### About me:
 I'm a process engineer, but for the last 12 years I've been a balloon designer.
 It so happened that I was forced to look for a profession that would allow me to work from home.
@@ -21,8 +24,8 @@ I am sure that my abilities and desire for training will allow me to become an e
 ==============================
 * Basic higher education 
     + Samara State University '95, chemist.
-* additional education
-    + March-May 2022, courses "Web design and basics of HTML/CSS"
+* Additional education
+    + March-May 2022, IDAT, courses "Web design and basics of HTML/CSS"
 * Skills 
     + web-design, color theory, typography
     + Adobe Photoshop, CorelDROW
