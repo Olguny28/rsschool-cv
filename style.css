@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(118, 196, 196);
+  font-family: 'PT Sans', sans-serif;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
