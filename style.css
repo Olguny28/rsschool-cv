@@ -1,10 +1,112 @@
 body {
   margin: 0;
   padding: 0;
-  background: rgb(118, 196, 196);
-  font-family: 'PT Sans', sans-serif;
+  background: #282828;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
 }
 h1 {
-  font-size: 64px;
+  font-size: 72px;
   font-weight: 700;
+  color: #FFD233;
+}
+.about-me {
+  font-family: 'lucida_consoleregular';
+  font-style: normal;
+  font-size: 36px;
+  font-weight: normal;
+  color: #FFFFFF;
+}git
+h2 {  
+  font-size: 48px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+A:link { 
+  text-decoration: none;
+} 
+
+A:hover {
+  text-decoration: none; 
+  color: #FFD233;
+}
+
+.nav {
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 10px 16px 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.menu_link {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+
+
+.page-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;  
+}
+.foto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  
+}
+.footer{
+  display: flex;
+flex-wrap: wrap;
+  align-content: center;
+height: 100%;
+  background-color: #FFD233;
+}
+
+.footer-list {
+ display: flex;
+justify-content: space-evenly;
+  padding: 20px;  
+ list-style: none;
+  
+}
+.footer-mygit-logo {
+  background-image: url(./img/bxl_github.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-top: 10px;
+}
+
+.footer-mygit {
+  color: #000000;
+  text-decoration: none; 
+  font-size: 20px;
+padding: 20px 10px 16px 10px;
+}
+
+.footer-time {
+  color: #000000;
+  font-size: 24px;
+  padding: 20px 10px 16px 10px;
+  justify-self: center;
+}
+
+.footer-logo{
+  align-self: flex-end;
+  height: 72px;
+  padding: 20px 10px 16px 10px;
+
 }
