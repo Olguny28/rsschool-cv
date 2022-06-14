@@ -1,10 +1,177 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  background: rgb(118, 196, 196);
-  font-family: 'PT Sans', sans-serif;
+  background: #282828;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  max-width: 1280px;
 }
 h1 {
-  font-size: 64px;
+  font-size: 72px;
   font-weight: 700;
+  color: #FFD233;
+}
+h2 {  
+  font-size: 48px;
+  color: #FFFFFF;
+  font-weight: 500;
+  margin: 0;  
+}
+A:link { 
+  text-decoration: none;
+} 
+A:hover {
+  text-decoration: none; 
+  color: #FFD233;
+}
+.nav {
+  display: block;
+}
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 10px 16px 10px;
+  padding: 0;
+  list-style: none;
+}
+.menu_link {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-me {
+  font-family: 'lucida_consoleregular';
+  font-style: normal;
+  font-size: 36px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+.foto {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+.wrapper-contact{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.line{
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    background-color: #FFD233;
+}
+.contact-list{
+  font-size: 24px;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+.wrapper-aboutme{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3em;
+}
+.aboute-list{
+  background-color: #FFD233;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 148.4%;
+  color: #282828;
+  padding-left: 4em;
+  margin: 2em 0;
+}
+.aboute-code{
+  background-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 148.4%;
+  width: 100%;
+  margin: 2em 0;
+}
+
+.work-ex-list, .work-key-list, .skills-list{
+  list-style-type: none;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 156%;
+}
+/*
+.wrapper-work{
+  border: 2px solid #FFD233;
+}
+.wrapper-works{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+}
+.work-ex{
+grid-row: 1/2;
+grid-column: 1/2;
+}
+.work-ex-list{
+grid-row: 2/3;
+grid-column: 1/2;
+}
+.work-key{
+grid-row: 1/2;
+grid-column: 2/3;
+}
+.work-key-list{
+grid-row: 2/3;
+grid-column: 2/3;
+}*/
+.topbutton{
+  display: block;
+  text-align: left;
+}
+.footer{
+  display: block;
+  background-color: #FFD233;
+}
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 10px 16px 10px;
+  padding: 0;
+  list-style: none;
+}
+.footer-mygit-list{
+  list-style: none;
+  width: auto;
+}
+.footer-mygit-logo{
+  background-image: url(./img/bxl_github.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-top: 10px;
+}
+.footer-mygi {
+  color: #000000;
+  font-size: 20px;
+} 
+.footer-time{
+  color: #000000;
+  font-size: 24px;
+  align-items: center;
+}
+.footer-logo{
+  align-items: center;
+  margin: 50px;
 }
