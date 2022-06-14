@@ -1,40 +1,32 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background: #282828;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
+  max-width: 1280px;
 }
 h1 {
   font-size: 72px;
   font-weight: 700;
   color: #FFD233;
 }
-.about-me {
-  font-family: 'lucida_consoleregular';
-  font-style: normal;
-  font-size: 36px;
-  font-weight: normal;
-  color: #FFFFFF;
-}git
 h2 {  
   font-size: 48px;
   color: #FFFFFF;
   font-weight: 500;
+  margin: 0;  
 }
 A:link { 
   text-decoration: none;
 } 
-
 A:hover {
   text-decoration: none; 
   color: #FFD233;
 }
-
 .nav {
   display: block;
 }
-
 .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -43,44 +35,125 @@ A:hover {
   padding: 0;
   list-style: none;
 }
-
 .menu_link {
   font-size: 20px;
   color: #FFFFFF;
 }
-
-
-
-.page-1 {
-  width: 50%;
+.wrapper{
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-me {
+  font-family: 'lucida_consoleregular';
+  font-style: normal;
+  font-size: 36px;
+  font-weight: normal;
+  color: #FFFFFF;
 }
 .foto {
-  width: 50%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: first baseline;
-  
 }
-.footer{
+.wrapper-contact{
   display: flex;
-flex-wrap: wrap;
-  align-content: center;
-height: 100%;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.line{
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    background-color: #FFD233;
+}
+.contact-list{
+  font-size: 24px;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+.wrapper-aboutme{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3em;
+}
+.aboute-list{
   background-color: #FFD233;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 148.4%;
+  color: #282828;
+  padding-left: 4em;
+  margin: 2em 0;
+}
+.aboute-code{
+  background-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 148.4%;
+  width: 100%;
+  margin: 2em 0;
 }
 
-.footer-list {
- display: flex;
-justify-content: space-evenly;
-  padding: 20px;  
- list-style: none;
-  
+.work-ex-list, .work-key-list, .skills-list{
+  list-style-type: none;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 156%;
 }
-.footer-mygit-logo {
+/*
+.wrapper-work{
+  border: 2px solid #FFD233;
+}
+.wrapper-works{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+}
+.work-ex{
+grid-row: 1/2;
+grid-column: 1/2;
+}
+.work-ex-list{
+grid-row: 2/3;
+grid-column: 1/2;
+}
+.work-key{
+grid-row: 1/2;
+grid-column: 2/3;
+}
+.work-key-list{
+grid-row: 2/3;
+grid-column: 2/3;
+}*/
+.topbutton{
+  display: block;
+  text-align: left;
+}
+.footer{
+  display: block;
+  background-color: #FFD233;
+}
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 10px 16px 10px;
+  padding: 0;
+  list-style: none;
+}
+.footer-mygit-list{
+  list-style: none;
+  width: auto;
+}
+.footer-mygit-logo{
   background-image: url(./img/bxl_github.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,24 +162,16 @@ justify-content: space-evenly;
   height: 36px;
   margin-top: 10px;
 }
-
-.footer-mygit {
+.footer-mygi {
   color: #000000;
-  text-decoration: none; 
   font-size: 20px;
-padding: 20px 10px 16px 10px;
-}
-
-.footer-time {
+} 
+.footer-time{
   color: #000000;
   font-size: 24px;
-  padding: 20px 10px 16px 10px;
-  justify-self: center;
+  align-items: center;
 }
-
 .footer-logo{
-  align-self: flex-end;
-  height: 72px;
-  padding: 20px 10px 16px 10px;
-
+  align-items: center;
+  margin: 50px;
 }
