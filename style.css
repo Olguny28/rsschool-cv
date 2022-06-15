@@ -142,15 +142,10 @@ grid-column: 2/3;
   background-color: #FFD233;
 }
 .footer-list {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 20px 10px 16px 10px;
-  padding: 0;
-  list-style: none;
-}
-.footer-mygit-list{
-  list-style: none;
   width: auto;
 }
 .footer-mygit-logo{
