@@ -101,7 +101,7 @@ A:hover {
   margin: 2em 0;
 }
 
-.work-ex-list, .work-key-list, .skills-list{
+.work-ex-list, .work-key-list, .skills-list, .education{
   list-style-type: none;
   color: #FFFFFF;
   font-weight: 500;
@@ -135,7 +135,7 @@ grid-column: 2/3;
 }*/
 .topbutton{
   display: block;
-  text-align: left;
+  text-align: right;
 }
 .footer{
   display: block;
