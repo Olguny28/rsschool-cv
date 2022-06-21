@@ -9,6 +9,9 @@ body {
 html {
   scroll-behavior: smooth; 
 }
+p{
+  margin: 0;
+}
 h1 {
   font-size: 72px;
   font-weight: 700;
@@ -21,11 +24,14 @@ h2 {
   margin: 0;  
 }
 A:link { 
-  text-decoration: none;
+  text-decoration:none;
 } 
 A:hover {
   text-decoration: none; 
   color: #FFD233;
+}
+.a-link{
+  color:#eee798;
 }
 .nav {
   display: block;
@@ -44,8 +50,9 @@ A:hover {
 }
 .wrapper{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
 }
 .about-me {
@@ -56,23 +63,23 @@ A:hover {
   color: #FFFFFF;
 }
 .foto {
-  width: 30%;
+  width: 45%;
   display: flex;
   flex-direction: column;
-  justify-content: first baseline;
+}
+.line{
+  width: 100%;
+  height: 0.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+  background-color: #FFD233;
 }
 .wrapper-contact{
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.line{
-    width: 100%;
-    height: 0.4rem;
-    margin-top: 0.4rem;
-    margin-bottom: 1rem;
-    background-color: #FFD233;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 2em;
+  margin-left: 56%;
 }
 .contact-list{
   font-size: 24px;
@@ -81,7 +88,6 @@ A:hover {
 }
 .wrapper-aboutme{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 3em;
@@ -92,8 +98,40 @@ A:hover {
   font-size: 20px;
   line-height: 148.4%;
   color: #282828;
-  padding-left: 4em;
-  margin: 2em 0;
+  padding: 1em 0 1em 4em;
+  margin: 1em 0;
+}
+.wrapper-skills{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  margin-left: 1;
+}
+.wrapper-education{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin-bottom: 3em;
+}
+.education{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: repeat(3 1fr);
+  gap: 10px 10px;
+}
+.wrapper-work{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 1em;
+}
+.keystr{
+  width: 40%;
+  margin-left: 5%;
+}
+.work{
+  width: 70%;
 }
 .aboute-code{
   background-color: #FFFFFF;
@@ -101,7 +139,11 @@ A:hover {
   font-size: 20px;
   line-height: 148.4%;
   width: 100%;
-  margin: 2em 0;
+  margin: 1em 0 3em 0;
+}
+.code-text{
+  margin-left: 10%;
+  padding: 2% 0;
 }
 .work-ex-list, .work-key-list, .skills-list, .education{
   list-style-type: none;
@@ -109,66 +151,32 @@ A:hover {
   font-weight: 500;
   font-size: 24px;
   line-height: 156%;
+  padding: 0;
 }
-/*
-.wrapper-work{
-  border: 2px solid #FFD233;
-}
-.wrapper-works{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 1fr 1fr;
-}
-.work-ex{
-grid-row: 1/2;
-grid-column: 1/2;
-}
-.work-ex-list{
-grid-row: 2/3;
-grid-column: 1/2;
-}
-.work-key{
-grid-row: 1/2;
-grid-column: 2/3;
-}
-.work-key-list{
-grid-row: 2/3;
-grid-column: 2/3;
-}*/
 .topbutton{
-  display: block;
-  text-align: right;
+  display: flex;
+  justify-content: right;
 }
 .footer{
-  display: block;
   background-color: #FFD233;
 }
 .footer-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
-  width: auto;
+  align-items: center;
+  padding: 0 2%;
 }
 .footer-mygit-logo{
-  background-image: url(./img/bxl_github.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 36px;
-  height: 36px;
-  margin-top: 10px;
+  margin-top: 10%;
 }
-.footer-mygi {
-  color: #000000;
-  font-size: 20px;
-} 
 .footer-time{
   color: #000000;
   font-size: 24px;
   align-items: center;
-}
-.footer-logo{
-  align-items: center;
-  margin: 50px;
 }
